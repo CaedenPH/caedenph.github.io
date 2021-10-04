@@ -1,4 +1,3 @@
-// set up text to print, each item in array is new line
 var aText = new Array(
     "I am a London-based aspiring Python developer with experience",
     "in tools such as MongoDB, PostgreSQL and Discord Bot developing"

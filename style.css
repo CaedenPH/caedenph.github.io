@@ -1,3 +1,6 @@
+*{
+    scrollbar-color: #fff #151019;
+}
 body{
     margin: 0;
     padding: 0;
@@ -6,12 +9,19 @@ body{
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
     color: white;
+    overflow-x: hidden;
+}
+nav{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -9%;
 }
 #text{
     margin-left: 12%; 
     font-size: 2.4rem;
     font-family: Courier;
     font-weight: normal;
+    position: absolute;
 }
 #greeting{
     margin-left: 25%;
@@ -30,12 +40,42 @@ body{
     }   
 }
 .separator{
-    margin-top: 35%;
-    background-color: #507191;
+    margin-top: 41.9%;
+    background-color: #323E52;
     height: 100px;
 }
-.footer{
-    margin-top: 50%;
-    color: rgb(0, 0, 0)
+.skills{
+    background-image: url('./images/skills.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;  
 }
-  
+.footer{
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: #323E52;
+    display: flex;  
+    align-items: center;  
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+    margin-left: 0.5%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}   
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    color: #9f9595
+} 
+.nav-links ul h1{
+    margin-left: 100%;
+}
