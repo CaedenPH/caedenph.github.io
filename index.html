@@ -1,17 +1,35 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
     <title>Caeden</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/icon.png"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./fontello.css"
+    rel="stylesheet">
 </head>
 
 
 
 <body> 
-    <nav>
+    <div class="top">
+        <ul><a href="#">Home</a></ul>
+        <ul><a href="#skills">Skills</a></ul>
+        <ul><a href="#projects">Projects</a></ul>
+        <ul><a href="#os">Operating System</a></ul>
+    </div>
+    <nav class="img">
         <img src="images/profile.png" onclick="javascript:window.open('https://discord.com/users/298043305927639041')">
     </nav>
+
     <div class="view">
         <h1 id="greeting">I'm Caeden Perelli-Harris.</h1>
         <h1 id="text"> </h1>    
@@ -19,15 +37,19 @@
     
 
     <div class="separator">&zwnj;</div> 
-    <div class="skills">&zwnj;</div>
+    <div class="skills" id="skills">
+            <h2>HI</h2>
+        </div>  
+    </div>  
 
-    <nav class="footer">
+    <nav class="footer" id="footer">    
     <div class="nav-links">
+        
         <ul>
             <li><a onclick="javascript:window.open('https://github.com/CaedenPH')">Github</a></li>
             <li><a onclick="javascript:window.open('https://discord.gg/RadHDhxueG')">Discord</a></li>
             <li><a onclick="javascript:window.open('https://caedenph.github.io')">Website</a></li>
-            <li><h1>Hi hello how are you<h1></li>
+            <a href="#">© 2021- Caeden Perelli-Harris</a>
         </ul>
     </div>
     </nav>
@@ -37,5 +59,6 @@
 
 
 <script type="text/javascript" src="./script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
 </html>

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
+
 *{
     scrollbar-color: #fff #151019;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -10,6 +13,37 @@ body{
     background-size: 1920px 1080px;
     color: white;
     overflow-x: hidden;
+}
+.top{
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 32.5%;
+}   
+.top ul{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+.top ul a{
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+    
+}
+.top ul a::before{
+    position: absolute;
+    content: attr(data-content);
+    top: 0;
+    left: 0;
+    width: 0;
+    color: midnightblue;
+    text-decoration: underline;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: width 275ms ease;
+}
+.top ul a:hover::before{
+    width: 100%;
 }
 nav{
     position: absolute;
@@ -43,6 +77,18 @@ nav{
     margin-top: 41.9%;
     background-color: #323E52;
     height: 100px;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.separator:hover,
+.separator:focus,
+.separator:active {
+    transform: scale(1.1);
 }
 .skills{
     background-image: url('./images/skills.png');
@@ -50,19 +96,24 @@ nav{
     background-repeat: no-repeat;
     background-size: 1920px 1080px;  
 }
+.skills h2{
+    position: absolute;
+    margin-left: 40%;
+}
 .footer{
     margin-left: 0%;
     margin-top: 0%;
     width: 100%;
-    height: 10%;
+    height: 70px;
     background-color: #323E52;
     display: flex;  
-    align-items: center;  
+    align-items: center;
+    vertical-align: middle;
 }
 .nav-links{
     flex: 1;
     text-align: left;
-    margin-left: 0.5%;
+    margin-left: -3%;
 }
 .nav-links ul li{
     list-style: none;
@@ -74,8 +125,10 @@ nav{
     text-decoration: none;
 }
 .nav-links ul li a:hover{
-    color: #9f9595
+    color: #9f9595;
 } 
-.nav-links ul h1{
-    margin-left: 100%;
+.nav-links ul a{
+    margin-left: 70%;
+    text-decoration: none;
+    color: #fff;
 }
