@@ -1,23 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow:800&display=swap');
-
 *{
     scrollbar-color: #fff #151019;
     scroll-behavior: smooth;
+    font-family: sans-serif;
 }
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     background-image: url('./images/background.png');
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
     color: white;
     overflow-x: hidden;
 }
+nav{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -9%;
+}
 .top{
     position: absolute;
     margin-top: -8%;
-    margin-left: 32.5%;
+    margin-left: 25.5%;
 }   
 .top ul{
     list-style: none;
@@ -25,31 +28,14 @@ body{
     margin: 0 5px;
 }
 .top ul a{
-    font-size: 120%;
+    font-size: 140%;
     text-decoration: none;
     color: white;
+    font-family: Courier;
     
 }
-.top ul a::before{
-    position: absolute;
-    content: attr(data-content);
-    top: 0;
-    left: 0;
-    width: 0;
-    color: midnightblue;
-    text-decoration: underline;
-    white-space: nowrap;
-    overflow: hidden;
-    transition: width 275ms ease;
-}
-.top ul a:hover::before{
-    width: 100%;
-}
-nav{
-    position: absolute;
-    margin-left: 85%;
-    margin-top: -9%;
-}
+
+/* View */
 #text{
     margin-left: 12%; 
     font-size: 2.4rem;
@@ -73,39 +59,236 @@ nav{
       width: 0
     }   
 }
-.separator{
+
+
+/* Bars */
+.Aboutbar{
+    width: 80%;
+    position: absolute;
+    color: white;
+    margin-left: 10%;
+    margin-top: 39%;    
+}
+.AboutSkillBar{
+    width: 5.5%;
+    position: absolute;
+    color: white;
+    margin-left: 46%;
+    margin-top: 10%;
+}
+.Skillbar{
+    width: 80%;
+    position: absolute;
+    color: white;
+    margin-left: 10%;
+    margin-top: -0.01%;
+}
+.SkillTextBar{
+    width: 5.5%;
+    position: absolute;
+    color: white;
+    margin-left: 46%;
+    margin-top: 10%;
+}
+.Projectbar{
+    width: 80%;
+    position: absolute;
+    color: white;
+    margin-left: 10%;
+    margin-top: 52.5%;
+}
+.ProjectTextBar{
+    width: 5.5%;
+    position: absolute;
+    color: white;
+    margin-left: 46%;
+    margin-top: 10%;
+}
+.Osbar{
+    width: 80%;
+    position: absolute;
+    color: white;
+    margin-left: 10%;
+    margin-top: -0.01%;
+}
+.OsTextBar{
+    width: 5.5%;
+    position: absolute;
+    color: white;
+    margin-left: 46%;
+    margin-top: 10%;
+}
+
+/* About me */
+
+.aboutme{
+    background-image: url('./images/projects.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px; 
     margin-top: 41.9%;
-    background-color: #323E52;
-    height: 100px;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
 }
-.separator:hover,
-.separator:focus,
-.separator:active {
-    transform: scale(1.1);
+.aboutme h2{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 38%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 5rem;
 }
+.aboutme .box{
+    position: absolute;
+    width: 60rem;
+    height: 10rem;
+    margin-left: 26%;
+    margin-top: 12.5%;
+    display: flex;
+    flex-wrap: wrap;
+}  
+.aboutme .box h3{
+    font-family: Courier;
+    font-size: 200%;
+    font-weight: normal;
+}
+.aboutme .box a{
+    font-family: Courier;
+    font-weight: normal;
+    font-size: 120%;
+}
+
+/* Skills section */
 .skills{
     background-image: url('./images/skills.png');
     height: 1000px;
     background-repeat: no-repeat;
-    background-size: 1920px 1080px;  
+    background-size: 1920px 1080px; 
 }
 .skills h2{
     position: absolute;
-    margin-left: 40%;
+    margin-left: 41%;
+    margin-top: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 5rem;
+}   
+.skills .box{
+    position: absolute;
+    width: 60rem;
+    height: 10rem;
+    margin-left: 26%;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}  
+.skills .box2{
+    position: absolute;
+    width: 60rem;
+    height: 10rem;
+    margin-left: 26%;
+    margin-top: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}  
+.skills .box2 h4{
+    font-family: Courier;
+    font-size: 200%;
+    font-weight: normal;
 }
+.skills .box .skills_skills{
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: #484444ab;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #777;    
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.skills .box .skills_skills::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098D1;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+.skills .box .skills_skills:hover, .skills .box .skills_skills:focus, .skills .box .skills_skills:active {
+    color: white;
+}
+.skills .box .skills_skills:hover:before, .skills .box .skills_skills:focus:before, .skills .box .skills_skills:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+
+
+
+
+/* Projects */
+.projects{
+    background-image: url('./images/projects.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px; 
+}
+.projects h2{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 38%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+
+
+
+
+/* Operating System */
+.os{
+    background-image: url('./images/os.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 1920px 1040px; 
+}
+.os h2{
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+
+
+/* Footer */
 .footer{
     margin-left: 0%;
-    margin-top: 0%;
+    margin-top: 0.01%;
     width: 100%;
     height: 70px;
-    background-color: #323E52;
+    background-color: #171f2d;
     display: flex;  
     align-items: center;
     vertical-align: middle;
