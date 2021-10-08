@@ -5,10 +5,8 @@
     <title>Caeden</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./images/icon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <link href="./fontello.css" rel="stylesheet">
-    <link href='https://css.gg/chevron-up.css' rel='stylesheet'>
+    <link href="./media.css" rel="stylesheet">
 </head>
 
 
@@ -35,7 +33,7 @@
         <hr class="AboutSkillBar">
         <h2>ABOUT ME</h2>
         <div class="box">
-            <h3>I'm a young programmer, born in Wisconsin, USA but moved to Southern England at a young age, and have been coding since late 2018. When I first started coding I learnt with Khan Academy, doing basic Javascript image design and then moved onto learning Python in-depth for 2 years. With a disproportionate ratio of Python to other languages, one of my goals is to even out the languages, and have a diverse vocabulary of languages spread across my <a onclick="javascript:window.open('https://github.com/caedenph')">github</a>. I'm kind of a discord-bot junky, having created a countless ammount of bots, mainly in python. My largest discord bot is Jesterbot, which is being hosted on my Raspberry Pi. </h3>
+            <h3>I'm a young programmer, born in Wisconsin, USA but moved to Southern England at a young age, and have been coding since late 2018. When I first started coding I learnt with Khan Academy, doing basic Javascript image design and then moved onto learning Python in-depth for 2 years. With a disproportionate ratio of Python to other languages, one of my goals is to even out the languages, and have a diverse vocabulary of languages spread across my <a onclick="javascript:window.open('https://github.com/caedenph')">github</a>. I'm kind of a discord-bot junky, having created a countless ammount of bots, mainly in python. My largest discord bot is Jesterbot, which is being hosted on my Raspberry Pi. I joined github in 2016.</h3>
         </div>
     </div>
 
@@ -44,7 +42,70 @@
         <h2>SKILLS</h2>
         <hr class="SkillTextBar">
         <div class="box">
-            <div class="skills_skills">Python</div>
+            <ul class="list"></ul>
+        </div>  
+        <div class="box2">
+            <h4>Python is my most developed language, because it is beginner friendly, but also tens of thousands of modules which can get pretty advanced. I learnt bash because, as a linux user, it is very useful for everyday terminal use.</h4>
+        </div>
+
+
+    <hr class="Projectbar">
+    </div>  
+    <div class="projects" id="projects">
+        <h2>PROJECTS</h2>
+        <hr class="ProjectTextBar">
+        <h4>These are my active projects as of 7th October, 2021.</h4>
+        <h5>Note: these are all on my &zwnj; <a href="https://github.com/caedenph">github</a></h5>
+        <div class="box">
+            <div class="projectss"><a href="https://github.com/caedenph/Jesterbot">Jesterbot</a></div>
+            <div class="projectss"><a href="https://github.com/caedenph/CustomCommands">CustomCommands</a></div>
+            <div class="projectss"><a href="https://github.com/caedenph/Curabitur">Curabitur</a></div>
+            <div class="projectss"><a href="https://github.com/caedenph/Integrated-Bot-Gui">Integrated-Bot-Gui</a></div>
+            <div class="projectss"><a href="https://github.com/caedenph/ChangeCursors">ChangeCursors</a></div>
+            <div class="projectss"><a href="https://github.com/caedenph/Java">Java</a></div>
+            <div class="projectss"><a href="https://github.com/caedenph/HTML">HTML</a></div>
+            <div class="projectss"><a href="https://github.com/caedenph/CaedenPH">CaedenPH</a></div>
+        </div>
+        <div class="box2">
+            <h6>Jesterbot is my largest project, which I have worked on for 4 months. It has 180 commands, 20 cogs and was on over 60 servers. </h6>
+        </div>
+    </div>
+
+
+
+    <hr class="Osbar">
+    <div class="os" id="os">
+        <h2>OPERATING SYSTEM</h2>
+        <hr class="OsTextBar">
+        <div class="box">
+            <h4>After playing around with lots of different linux distributions; ubunutu, debian, fedora, I found Manjaro. Manjaro is an open-source operating system with great functionality and a powerful os. I am on Xfce Desktop Environment, as I appreciate the customisability and freedom it produces. Manjaro also has an amazing forum community, meaning you can get help whenever you need it from a range of advanced profesionals who offer their time to help you. I also saw that Manjaro had a command called mhwd - which is automatic hardware detection, and as I use an nvidia gpu this was necessary. Another perk is that Manjaro runs on top of Arch, a complex but fascinating OS, and Manjaro adds some simplicity to it while still retaining the useful features. I hope to stay with Manjaro as long as possible.</h4>
+        </div>
+
+    </div>
+
+    <nav class="footer" id="footer">    
+    <div class="nav-links">
+        
+        <ul>
+            <li><a onclick="javascript:window.open('https://github.com/CaedenPH')">Github</a></li>
+            <li><a onclick="javascript:window.open('https://discord.com/users/298043305927639041')">Discord</a></li>
+            <li><a onclick="javascript:window.open('https://caedenph.github.io')">Website</a></li>
+            <a id="footText" href="#"></a>
+        </ul>
+    </div>
+    </nav>
+
+
+</body>
+
+
+<script type="text/javascript" src="./script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+</html>
+
+
+<!-- <div class="skills_skills">Python</div>
             <div class="skills_skills">Bash</div>
             <div class="skills_skills">Html</div>
             <div class="skills_skills">CSS</div>
@@ -59,42 +120,4 @@
             <div class="skills_skills">Replit</div>
             <div class="skills_skills">Visual Studio Code</div>
             <div class="skills_skills">Github</div>
-            <div class="skills_skills">Discord API</div>
-        </div>
-        <div class="box2">
-            <h4>The skills that I have developed the most are Python, Bash and HTML/CSS.</h4>
-        </div>
-
-
-    <hr class="Projectbar">
-    </div>  
-    <div class="projects" id="projects">
-        <h2>PROJECTS</h2>
-        <hr class="ProjectTextBar">
-    </div>
-    <hr class="Osbar">
-    <div class="os" id="os">
-        <h2>OPERATING SYSTEM</h2>
-        <hr class="OsTextBar">
-    </div>
-
-    <nav class="footer" id="footer">    
-    <div class="nav-links">
-        
-        <ul>
-            <li><a onclick="javascript:window.open('https://github.com/CaedenPH')">Github</a></li>
-            <li><a onclick="javascript:window.open('https://discord.gg/RadHDhxueG')">Discord</a></li>
-            <li><a onclick="javascript:window.open('https://caedenph.github.io')">Website</a></li>
-            <a href="#">© 2021- Caeden Perelli-Harris</a>
-        </ul>
-    </div>
-    </nav>
-
-
-</body>
-
-
-<script type="text/javascript" src="./script.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-
-</html>
+            <div class="skills_skills">Discord API</div> -->

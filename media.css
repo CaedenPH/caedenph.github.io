@@ -1,0 +1,332 @@
+@media only screen and (max-width: 450px) {
+    body{
+        height: 550px;
+    }
+    #text{
+        font-size: 80%;
+    }
+    #greeting{
+        font-size: 150%;
+    }
+    .top{
+        font-size: 50%;
+    }   
+    .img{
+        margin-left: 100%;
+    }
+
+
+    .Projectbar{
+        margin-top: 82%;
+    }
+
+
+
+
+
+
+
+    .aboutme{
+        height: 550px;
+    }
+    .aboutme h2{
+        font-size: 150%;
+    }
+    .aboutme .box{
+        width: 23rem;
+        margin-left: 12%;
+    }
+    .aboutme .box h3{
+        font-size: 110%;
+    }
+
+
+
+    .skills{
+        height: 550px;
+    }
+    .skills h2{
+        font-size: 150%;
+    }
+    .skills .box{
+        margin-left: 13%;
+        width: 33rem;
+    }
+    .skills .box li{
+        font-size: 0.5rem;
+        padding: 1rem 1.5rem;
+    }
+    .skills .box2{
+        margin-top: 53%;
+        margin-left: 15%;
+        width: 30rem;
+    }
+    .skills .box2 h4{
+        font-size: 110%;
+    }
+
+
+
+    .projects{
+        height: 550px;
+    }
+    .projects h2{
+        font-size: 150%;
+    }
+    .projects h4{
+        font-size: 100%;
+        margin-left: 9%;
+    }
+    .projects h5{
+        font-size: 90%;
+        margin-left: 25%;
+    }
+    .projects h5 a{
+        font-size: 110%; 
+    }
+    .projects .box{
+        width: 30rem;
+    }
+    .projects .box{
+        margin-left: 21.5%;
+        margin-top: 25%;
+    }
+    .projects .box .projectss{
+        font-size: 0.5rem;
+        padding: 1rem 1.5rem;
+    }
+    .projects .box2{
+        width: 30rem;
+        margin-left: 13%;
+        margin-top: 54%;
+    }
+    .projects .box2 h6{
+        font-size: 110%;
+    }
+
+    .os{
+        height: 600px;  
+    }
+    .os h2{
+        font-size: 150%;
+    }
+    .os .box{
+        width: 22rem;
+        margin-left: 12%;
+    }
+    .os .box h4{
+        font-size: 100%;
+    }
+
+    .footer{
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 451px) and (max-width: 640px) {
+    body{
+        height: 500px;
+    }
+    #text{
+        font-size: 80%;
+    }
+    #greeting{
+        font-size: 150%;
+    }
+    .top{
+        font-size: 50%;
+    }   
+    .img{
+        margin-left: 100%;
+    }
+
+
+    .Projectbar{
+        margin-top: 82%;
+    }
+
+
+
+
+
+
+
+    .aboutme{
+        height: 500px;
+    }
+    .aboutme h2{
+        font-size: 150%;
+    }
+    .aboutme .box{
+        width: 30rem;
+        margin-left: 12%;
+    }
+    .aboutme .box h3{
+        font-size: 110%;
+    }
+
+
+
+    .skills{
+        height: 500px;
+    }
+    .skills h2{
+        font-size: 150%;
+    }
+    .skills .box{
+        margin-left: 13%;
+        width: 33rem;
+    }
+    .skills .box li{
+        font-size: 0.5rem;
+        padding: 1rem 1.5rem;
+    }
+    .skills .box2{
+        margin-top: 53%;
+        margin-left: 15%;
+        width: 30rem;
+    }
+    .skills .box2 h4{
+        font-size: 110%;
+    }
+
+
+
+    .projects{
+        height: 500px;
+    }
+    .projects h2{
+        font-size: 150%;
+    }
+    .projects h4{
+        font-size: 100%;
+        margin-left: 9%;
+    }
+    .projects h5{
+        font-size: 90%;
+        margin-left: 25%;
+    }
+    .projects h5 a{
+        font-size: 110%;
+    }
+    .projects .box{
+        width: 30rem;
+    }
+    .projects .box{
+        margin-left: 21.5%;
+        margin-top: 25%;
+    }
+    .projects .box .projectss{
+        font-size: 0.5rem;
+        padding: 1rem 1.5rem;
+    }
+    .projects .box2{
+        width: 30rem;
+        margin-left: 13%;
+        margin-top: 54%;
+    }
+    .projects .box2 h6{
+        font-size: 110%;
+    }
+
+    .os{
+        height: 450px;
+    }
+    .os h2{
+        font-size: 150%;
+    }
+    .os .box{
+        width: 30rem;
+        margin-left: 12%;
+    }
+    .os .box h4{
+        font-size: 100%;
+    }
+
+    .footer{
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1536px) and (max-width: 1919px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1536px) and (max-width: 1919px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1536px) and (max-width: 1919px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1536px) and (max-width: 1919px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1536px) and (max-width: 1919px) {
+
+
+}

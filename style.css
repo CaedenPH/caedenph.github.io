@@ -119,8 +119,10 @@ nav{
     margin-top: 10%;
 }
 
-/* About me */
 
+
+
+/* About me */
 .aboutme{
     background-image: url('./images/projects.png');
     height: 1000px;
@@ -156,6 +158,10 @@ nav{
     font-size: 120%;
 }
 
+
+
+
+
 /* Skills section */
 .skills{
     background-image: url('./images/skills.png');
@@ -176,43 +182,29 @@ nav{
     width: 60rem;
     height: 10rem;
     margin-left: 26%;
-    margin-top: 15%;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 13.5%;
+    display: flex;  
 }  
-.skills .box2{
-    position: absolute;
-    width: 60rem;
-    height: 10rem;
-    margin-left: 26%;
-    margin-top: 35%;
-    display: flex;
-    flex-wrap: wrap;
-}  
-.skills .box2 h4{
-    font-family: Courier;
-    font-size: 200%;
-    font-weight: normal;
-}
-.skills .box .skills_skills{
+.skills .box li{
+    display: inline-block; 
+    list-style: none;
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
     font-size: 1.6rem;
     background: #484444ab;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 600;   
     color: #777;    
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    transition-duration: 0.3s;  
 }
-.skills .box .skills_skills::before{
+.skills .box li::before{
     content: "";
     position: absolute;
     z-index: -1;
@@ -232,12 +224,27 @@ nav{
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
   }
-.skills .box .skills_skills:hover, .skills .box .skills_skills:focus, .skills .box .skills_skills:active {
+.skills .box li:hover, .skills .box li:focus, .skills .box li:active {
     color: white;
 }
-.skills .box .skills_skills:hover:before, .skills .box .skills_skills:focus:before, .skills .box .skills_skills:active:before {
+.skills .box li:hover:before, .skills .box li:focus:before, .skills .box li:active:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+.skills .box2{
+    position: absolute;
+    width: 60rem;
+    height: 10rem;
+    margin-top: 36%;
+    margin-left: 28%;
+    display: flex;
+    flex-wrap: wrap;
+}  
+.skills .box2 h4{
+    font-family: Courier;
+    font-size: 200%;
+    font-weight: normal;
+    margin-top: 6%;
 }
 
 
@@ -254,12 +261,103 @@ nav{
 .projects h2{
     position: absolute;
     margin-top: 4%;
-    margin-left: 38%;
+    margin-left: 37.5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 5rem;
 }
+.projects h4{
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 17%;
+    font-family: Courier;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+.projects h5{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 33%;
+    font-family: Courier;
+    font-weight: normal;
+    font-size: 2rem;
+    font-style: italic;
+}
+.projects h5 a{
+    position: absolute;
+    font-family: Courier;
+    font-size: 2rem;
+    color: white
+}
+.projects .box{
+    position: absolute;
+    width: 60rem;
+    height: 10rem;
+    margin-left: 29%;
+    margin-top: 22%;
+} 
+.projects .box .projectss{
+    display: inline-block; 
+    list-style: none;
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: #484444ab;
+    border-radius: 5px;
+    font-weight: 600;   
+    color: #777;    
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;  
+} 
+.projectss a{
+    color: #777;
+    text-decoration: none;
+}
+.projects .box .projectss::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098D1;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+.projects .box .projectss:hover, .projects .box .projectss:focus, .projects .box .projectss:active {
+    color: white;
+}
+.projects .box .projectss:hover:before, .projects .box .projectss:focus:before, .projects .box .projectss:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.projects .box2{
+    position: absolute;
+    width: 60rem;
+    margin-top: 34%;
+    margin-left: 26%;
+}   
+.projects .box2 h6{
+    font-family: Courier;
+    font-size: 200%;
+    font-weight: normal;
 
+}
 
 
 
@@ -273,13 +371,26 @@ nav{
 }
 .os h2{
     position: absolute;
-    margin-left: 29%;
+    margin-left: 28.5%;
     margin-top: 4%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 5rem;
 }
-
+.os .box{
+    position: absolute;
+    width: 60rem;
+    height: 10rem;
+    margin-left: 26%;
+    margin-top: 11.5%;
+    display: flex;
+    flex-wrap: wrap;
+}  
+.os .box h4{
+    font-family: Courier;
+    font-size: 200%;
+    font-weight: normal;
+}
 
 
 /* Footer */
