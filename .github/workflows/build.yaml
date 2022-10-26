@@ -29,5 +29,5 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1.11.1
         with:
-          artifacts: "dist/portfolio*"
+          artifacts: "dist/portfolio/*"
           token: ${{ secrets.TOKEN }}
